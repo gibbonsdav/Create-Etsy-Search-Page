@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Whiskey | Etsy</title>
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+    integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img id="logo"
+          src="https://github.com/gibbonsdav/Create-Etsy-Search-Page/blob/master/assets/logo.png?raw=true"
+          height="40"
+          width="80"
+        />
+        <form>
+        <input class="search" type="text" placeholder="whiskey" />
+        <button id="glass" type="submit"><i class="fa fa-search"></i></button>
+        <button id="x" type="reset">
+        <i class="fas fa-times"></i>
+      </button>
+      </form>
+        <div id="signin">Sign in</div>
+        <img id="cart"
+        src="./assets/cart.png" />
+      </header>
+      <div>
+        <ul class="menu">
+          <li>Jewelry & Accessories</li>
+          <li>Clothing & Shoes</li>
+          <li>Home & Living</li>
+          <li>Wedding & Party</li>
+          <li>Toys & Entertainment</li>
+          <li>Art & Collectibles</li>
+          <li>Craft Supplies</li>
+          <li>Vintage</li>
+          <li>Gifts</li>
+        </ul>
+      </div>
+      <div class="line"></div>
+      <div>
+        <ul class="buttons">
+          <li>whiskey stones</li>
+          <li>whiskey decanter</li>
+          <li>whiskey barrel</li>
+          <li>whiskey glasses</li>
+          <li>bourbon</li>
+          <li>whiskey dispenser</li>
+          <li>whiskey box</li>
+          <li>whiskey gift</li>
+          <li>whiskey svg</li>
+        </ul>
+      </div>
+      <section class="mainpage">
+        <div class="sidebar">
+          <div class="first" >
+          <h1>All categories</h1>
+          <ul id="firstlist">
+            <li>Home & Living</li>
+            <li>Art & Collectibles</li>
+            <li>Weddings</li>
+            <li>Clothing</li>
+          </ul>
+            </div>
+        
+          <h1 id="show">+ Show more</h1>
+          <br />
+          <div class="second">
+          <h1>Special Offers</h1>
+          <ul id="second">
+            <li>
+          <input id="free" type="checkbox" />FREE shipping<br />
+        </li>
+        <li>
+          <input id="sale" type="checkbox" />On sale<br />
+        </li>
+        </ul>
+        </div>
+          <div class="third">
+          <h1>Ready to ship in</h1>
+          <ul id="ready">
+            <li>
+          <input type="checkbox" />1 business day<br />
+        </li>
+        <li>
+          <input type="checkbox" />1-3 business days<br />
+        </li>
+        </ul>
+        </div>
+          <br />
+          <h1>Price($)</h1>
+          <div >
+            <ul >
+              <li class="fourth">
+                <input id="any" type="radio" checked />Any Price<br />
+              </li>
+              <li class="fourth">
+                <input id="any" type="radio" />Under $25<br />
+              </li>
+              <li class="fourth">
+                <input type="radio" />$25 to $75<br />
+              </li>
+                <li class="fourth">
+                <input type="radio" />$75 to $100<br />
+              </li>
+                <li class="fourth">
+                <input type="radio" />Over $100<br />
+              </li>
+                <li class="fourth">
+                <input type="radio" />Custom<br />
+              </li>
+                <div class="searchlow">
+                   <input class="low" type="text" placeholder="Low" />
+                
+                  <div>to</div>
+                
+                  <input class="high" type="text" placeholder="High" />
+          
+                </div>
+             
+            </ul>
+            <h1>Material</h1>
+            <ul id="material">
+              <li>
+            <input type="checkbox" />Ceramic<br />
+          </li>
+          <li>
+            <input type="checkbox" />Cork<br />
+          </li>
+          <li>
+            <input type="checkbox" />Fabric<br />
+            </li>
+            <li>
+            <input type="checkbox" />Glass<br />
+          </li>
+          <li>
+            <input type="checkbox" />Metal<br />
+          </li>
+          <li>
+            <h1>+ Show more</h1>
+          </li>
+          </ul>
+            <br />
+            <h1>Color</h1>
+            <ul id="color">
+              <li>
+            <input type="checkbox" />Beige<br />
+          </li>
+          <li>
+            <input type="checkbox" />Black<br />
+          </li>
+          <li>
+            <input type="checkbox" />Blue<br />
+          </li>
+          <li>
+            <input type="checkbox" />Bronze<br />
+          </li>
+          <li>
+            <input type="checkbox" />Brown<br />
+          </li>
+            <br />
+            <li>
+            <h1>+ Show more</h1>
+          </li>
+          </ul>
+            <div>
+              <h1>Can be personalized</h1>
+              <input type="radio" />Yes<br />
+              <input type="radio" />No<br />
+            </div>
+            <h1>Occasion</h1>
+            <input type="checkbox" />Anniversary<br />
+            <input type="checkbox" />Baby shower<br />
+            <input type="checkbox" />Bachelor party<br />
+            <input type="checkbox" />Bachlorette party<br />
+            <input type="checkbox" />Birthday<br />
+            <br />
+            <h1>+ Show more</h1>
+            <br />
+            <h1>Holiday</h1>
+            <input type="checkbox" />Christmas<br />
+            <input type="checkbox" />Cinco de Mayo<br />
+            <input type="checkbox" />Easter<br />
+            <input type="checkbox" />Father's Day<br />
+            <input type="checkbox" />Halloween<br />
+            <br />
+            <h1>+ Show more</h1>
+            <br />
+            <h1>Shop location</h1>
+            <input type="radio" checked />Anywhere<br />
+            <input type="radio" />United States<br />
+            <input type="radio" />Custom<br />
+            <input type="text" placeholder="Enter location" width="50px" />
+            <br />
+            <h1>Item type</h1>
+            <input type="radio" />All items<br />
+            <input type="radio" />Handmade<br />
+            <input type="radio" />Vintage<br />
+            <br />
+            <h1>Ordering Options</h1>
+            <input type="checkbox" />Accepts Etsy gift cards<br />
+            <input type="checkbox" />Can be gift-wrapped<br />
+            <input type="checkbox" />Customizable<br />
+            <br />
+            <h1>Ship to</h1>
+            <div>
+              <label for="ship"></label>
+              <select
+                width="100px"
+                height="25px"
+                name="talent"
+                placeholder="United States"
+              >
+                <option width="100px" value="design">United States</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div id="wrapper">
+          <div class="products">
+
+          </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="items.js"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>
+
+<img class="heart" src="./assets/heart.png" />

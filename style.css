@@ -1,0 +1,264 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.container {
+  display: grid;
+  width: 1300px;
+  margin: auto;
+}
+
+.mainpage {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+header {
+  display: flex;
+  height: 72;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  position: relative;
+  left: 82px;
+}
+
+#glass {
+  position: relative;
+  left: -32px;
+  padding: 8px 8px 8px 8px;
+  background-color: none;
+  border-radius: 5px;
+  border: none;
+}
+
+#x {
+  position: relative;
+  right: 95px;
+  border: none;
+  background-color: none;
+}
+
+#signin {
+  position: relative;
+  right: 50px;
+}
+
+#cart {
+  position: relative;
+  right: 45px;
+}
+h1 {
+  font-size: medium;
+}
+
+.first > h1:hover {
+  text-decoration: underline;
+  color: lightgrey;
+}
+
+#firstlist > li:hover {
+  text-decoration: underline;
+  color: lightgrey;
+}
+
+.second > input:hover {
+  text-decoration: underline;
+  color: lightgrey;
+}
+
+.fourth:hover {
+  text-decoration: underline;
+  color: lightgrey;
+}
+
+#second > li:hover {
+  text-decoration: underline;
+  color: lightgrey;
+}
+
+#ready > li:hover {
+  text-decoration: underline;
+  color: lightgrey;
+}
+
+#show:hover {
+  text-decoration: underline;
+  color: lightgrey;
+}
+
+#free:hover {
+  text-decoration: underline;
+  color: lightgrey;
+}
+
+#color > li:hover {
+  text-decoration: underline;
+  color: lightgrey;
+}
+
+#material > li:hover {
+  text-decoration: underline;
+  color: lightgrey;
+}
+
+#lowhigh > li:hover {
+  text-decoration: underline;
+  color: lightgrey;
+}
+
+.searchlow {
+  display: flex;
+}
+
+.low {
+  width: 60px;
+}
+
+.high {
+  width: 60px;
+}
+
+.sidebar {
+  width: 232px;
+  display: block;
+  font-size: medium;
+  line-height: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.search {
+  width: 800px;
+  height: 40px;
+  border: 1px grey solid;
+  border-radius: 12px;
+  position: relative;
+  background-color: rgb(239, 239, 239);
+}
+
+input::placeholder {
+  font-size: medium;
+}
+
+ul {
+  list-style-type: none;
+}
+.line {
+  border-bottom: grey 1px solid;
+  width: 100%;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+
+  font-weight: lighter;
+  font-size: medium;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons > li:hover {
+  background-color: rgb(246, 134, 97);
+}
+
+.buttons > li {
+  background-color: rgb(240, 147, 110);
+  border-radius: 8px;
+  align-items: center;
+  padding: 10px;
+}
+
+.wrapper {
+  width: 1000px;
+  margin: auto;
+  border: 1px solid #333;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.product {
+  display: grid;
+  grid-template-areas:
+    "image"
+    "name"
+    "shop"
+    "price";
+  justify-items: center;
+  border: solid 1px #ccc;
+  position: relative;
+}
+
+.itemimg {
+  grid-area: image;
+  justify-self: center;
+  width: 250px;
+  height: 200px;
+  position: relative;
+}
+
+.product .title {
+  grid-area: name;
+  justify-self: left;
+  align-self: center;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300px;
+  line-height: 1;
+  letter-spacing: normal;
+  margin: 2px;
+}
+
+.product .price {
+  grid-area: price;
+  justify-self: left;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 2px;
+}
+
+.product .shop {
+  grid-area: shop;
+  justify-self: left;
+  font-size: small;
+  margin: 2px;
+}
+
+.shipping {
+  background-color: lightgreen;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: small;
+  justify-self: left;
+  margin: 2px;
+}
+
+.product:hover .heart {
+  top: 10px;
+  right: 10px;
+  position: absolute;
+  display: block;
+}
+
+.heart {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: none;
+}
